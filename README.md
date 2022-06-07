@@ -1,9 +1,9 @@
 # reverse_any-number
-num=1234
+num=int(input("enter the number to be reversed"))
 rev=0
 while num !=0:
-    dig=num%10
-    rev=rev*10+dig
+    digit=num%10
+    rev=rev*10+digit
     num//=10
-print(rev)
+print("reverse of the number is:",rev)
     
